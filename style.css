@@ -2,12 +2,31 @@ body {
     font-family: Arial, sans-serif;
 }
 
+fieldset {
+    border-color: gray;
+    border-style: solid;
+    width: 350px;
+}
+
+labels {
+    display: block;
+    margin-right: 5px;
+    text-align: right;
+    width: 120px;
+}
+
 main {
     padding: 5px;
 }
 
 footer {
-    padding: 15px 5px;
-    font-size: 0.8em;
     color: #666666;
+    font-size: 0.8em;
+    padding: 15px 5px;
+}
+
+@media only screen and (max-width: 37.5em) {
+    input {
+        width: 100%;
+    }
 }
